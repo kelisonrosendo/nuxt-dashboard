@@ -1,0 +1,2 @@
+# nuxt-dashboard
+Nuxt Dashboard
