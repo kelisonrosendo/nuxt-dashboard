@@ -1,0 +1,113 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;  
+  color: $ds-color-text-primary;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.row {
+  padding: 0 40px;
+}
+
+.grid-one-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.ds-color-green-primary {
+  color: $ds-color-green-primary;
+}
+
+.ds-color-green-secondary {
+  color: $ds-color-green-secondary;
+}
+
+.bg-green-primary {
+  background: $ds-color-green-primary;
+}
+
+.bg-green-secondary {
+  background: $ds-color-green-secondary;
+}
+
+.ds-color-blue-primary {
+  color: $ds-color-blue-primary;
+}
+
+.ds-color-blue-secondary {
+  color: $ds-color-blue-secondary;
+}
+
+.bg-blue-primary {
+  background: $ds-color-blue-primary;
+}
+
+.bg-blue-secondary {
+  background: $ds-color-blue-secondary;
+}
+
+.ds-color-red-primary {
+  color: $ds-color-red-primary;
+}
+
+.ds-color-red-secondary {
+  color: $ds-color-red-secondary;
+}
+
+.bg-red-primary {
+  background: $ds-color-red-primary;
+}
+
+.bg-red-secondary {
+  background: $ds-color-red-secondary;
+}
+
+$margins: 50;
+
+@for $i from 1 through $margins {
+  .m-#{$i} {
+    margin: $i + px;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $i + px;
+  }
+
+  .mt-#{$i} {
+    margin-top: $i + px;
+  }
+
+  .ml-#{$i} {
+    margin-left: $i + px;
+  }
+
+  .mr-#{$i} {
+    margin-right: $i + px;
+  }
+}
