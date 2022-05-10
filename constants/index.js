@@ -29,4 +29,22 @@ const iconOptions = [
 
 const statusOptions = ["green", "blue", "red"];
 
-export { colorsControl, iconOptions, statusOptions }
+const cardColors = {
+  green: {
+    card: 'bg-green-primary',
+    icon: 'bg-green-secondary',
+    text: 'ds-color-green-secondary',
+  },
+  blue: {
+    card: 'bg-blue-primary',
+    icon: 'bg-blue-secondary',
+    text: 'ds-color-blue-secondary',
+  },
+  red: {
+    card: 'bg-red-primary',
+    icon: 'bg-red-secondary',
+    text: 'ds-color-red-secondary',
+  },
+}
+
+export { colorsControl, iconOptions, statusOptions, cardColors }

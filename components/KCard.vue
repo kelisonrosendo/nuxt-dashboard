@@ -13,23 +13,7 @@
 </template>
 
 <script>
-const cardColors = {
-  green: {
-    card: 'bg-green-primary',
-    icon: 'bg-green-secondary',
-    text: 'ds-color-green-secondary',
-  },
-  blue: {
-    card: 'bg-blue-primary',
-    icon: 'bg-blue-secondary',
-    text: 'ds-color-blue-secondary',
-  },
-  red: {
-    card: 'bg-red-primary',
-    icon: 'bg-red-secondary',
-    text: 'ds-color-red-secondary',
-  },
-}
+import { cardColors } from '@/constants'
 
 export default {
   name: 'KCard',
@@ -37,7 +21,6 @@ export default {
     value: {
       type: String,
       required: true,
-      default: 'sicão',
     },
     percent: {
       type: String,

@@ -1,14 +1,10 @@
 import { mount } from '@vue/test-utils'
-import KDivider from '@/components/KDivider.vue'
+import KDivider from '@/components/KDivider'
 
-describe('KDivider', () => {
-  const wrapper = mount(KDivider)
+const wrapper = mount(KDivider)
 
-  test('é uma instância do Vue', () => {    
-    expect(wrapper.vm).toBeTruthy()
-  })
-
-  test('possui a classe divider', () => {
-    expect(wrapper.attributes().class).toBe('divider')    
+describe('Checando o componente', () => {
+  test('deve possuir uma classe chamada divider', () => {
+    expect(wrapper.attributes().class).toBe('divider')
   })
 })

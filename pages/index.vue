@@ -142,6 +142,7 @@ aside {
 }
 
 main {
+  overflow: auto;
   width: calc(100% - $sidebar-size);
   background: $ds-color-absolute-white;
 
