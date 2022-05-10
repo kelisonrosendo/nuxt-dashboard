@@ -2,6 +2,7 @@
 A ideia do projeto é criar uma aplicação completa, desde o protótipo até os testes. Trata-se de um dashboard inicialmente sem funcionalidades, apenas para demonstrar a criação do protótipo (utilizando o Figma), a criação dos componentes do projeto (utilizando o Nuxt), a documentação dos componentes (utilizando o Storybook) e por fim os testes dos componentes (utilizando o Jest).
 
 [Link para visualizar a aplicação](https://nuxt-dashboard-three.vercel.app)
+
 [Link para visualizar o storybook](https://nuxt-dashboard-storybook.vercel.app)
 
 #### 🚀 Tecnologias
